@@ -1,0 +1,85 @@
+body {
+	font-family: Arial Rounded MT;
+	background: linear-gradient(to right,#ef395b,#f14d45,#c83383,#340bae);
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0px;
+	margin: 10px auto;
+	background-color: #272727;
+	border-radius: 10%;
+}
+table tr td {
+	width: 80px;
+	height: 80px;
+	border: 1px solid rgba(255,255,255,.05);
+	border-radius: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+table tr td:hover {
+	background: #2c3531;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+.text 
+{
+	text-align: center;
+	top: 20% ;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	font-weight: bold;
+	color: black;
+	font-size: 60px;
+}
+h1 {
+	padding-left: 30%;
+	padding-right: 30%;
+	text-align: center;
+}
+.container {
+	padding-left: 30%;
+	padding-right: 30%;
+	text-align: center;
+}
+.o{
+	color: #3FC80E;
+}
+.x{
+	color: #ef395b;
+}
+button#bt1{
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 16px;
+	margin: 22px auto;
+	background-color: #272727;
+	border-radius: 20%;
+	color: white;
+	font-family: Arial Rounded MT;
+}
+p#times{
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 16px;
+	margin: 10px auto;
+	background-color: #272727;
+	border-radius: 20%;
+	color: white;
+	font-family: Arial Rounded MT;
+	width: 17%;
+}
+div.final{
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 16px;
+	margin: 10px auto;
+	background-color: #272727;
+	border-radius: 20%;
+	color: white;
+	font-family: Arial Rounded MT;
+	width: 17%;	
+}
